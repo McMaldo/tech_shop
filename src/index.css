@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+	--color-razer: #00ff00;
+}
+:root {
+	--color-razer: #00ff00;
+	--color-razer-soft: #00cc00;
+}
+
+@font-face {
+	font-family: Prototype;
+	src: url('/font/prototype/Prototype.ttf');
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/font/orbitron/Orbitron-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/font/orbitron/Orbitron-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/font/orbitron/Orbitron-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Orbitron';
+	src: url('/font/orbitron/Orbitron-Black.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+.customScroll{
+	overflow-y: scroll;
+	scrollbar-gutter: auto;
+}
+.customScroll::-webkit-scrollbar{
+	background: transparent;
+	width: 8px;
+}
+.customScroll::-webkit-scrollbar-thumb{
+	border: 1px solid transparent;
+	border-width: 1.5rem 1px;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-image: linear-gradient(var(--color-razer-soft), var(--color-razer-soft)),
+		linear-gradient(90deg, transparent, transparent);
+}
+.customScroll::-webkit-scrollbar-thumb:hover{
+	background-image: linear-gradient(var(--color-razer), var(--color-razer)),
+		linear-gradient(90deg, transparent, transparent);
+}
+
+*{
+	font-family: Prototype;
+}
+h1{
+	font-family: Orbitron;
+	font-weight: 600;
+}
+h2, h3{
+	font-family: Orbitron;
+	font-weight: 500;
+}
+h3{ @apply text-2xl; }
+body {
+	@apply bg-black text-blue-100;
+	font-family: RazerF5, Arial, Helvetica, sans-serif;
+}
