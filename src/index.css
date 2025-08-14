@@ -39,7 +39,6 @@
 
 .customScroll{
 	overflow-y: scroll;
-	scrollbar-gutter: auto;
 }
 .customScroll::-webkit-scrollbar{
 	background: transparent;
@@ -61,15 +60,13 @@
 *{
 	font-family: Prototype;
 }
-h1{
+h1, h2, h3, h4, h5, h6{
 	font-family: Orbitron;
-	font-weight: 600;
 }
-h2, h3{
-	font-family: Orbitron;
-	font-weight: 500;
-}
-h3{ @apply text-2xl; }
+h1{font-weight: 600;}
+h2, h3{font-weight: 500;}
+h4{font-weight: 400;}
+h5, h6{font-weight: 300;}
 body {
 	@apply bg-black text-blue-100;
 	font-family: RazerF5, Arial, Helvetica, sans-serif;
