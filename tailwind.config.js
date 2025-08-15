@@ -6,7 +6,7 @@ export default {
 	theme: {
 		extend: {
 			color: {
-				'green-razer': '#00ff00',
+				'razer': '#00ff00'
 			},
 			fontFamily: {
 				Orbitron: ['Orbitron', 'sans-serif'],

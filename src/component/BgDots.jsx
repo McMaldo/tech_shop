@@ -40,7 +40,7 @@ const BgDots = () => {
 	}, []);
 	const mouseFollower = 'z-2 h-30 aspect-square bg-radial from-razer to-transparent absolute pointer-events-none transform-origin-center -translate-1/2 opacity-0';
 	return (
-		<div className="z-0 absolute top-0 left-0 w-full h-full overflow-hidden bg-radial from-40% from-gray-700 to-transparent">
+		<div className="z-0 absolute top-0 left-0 w-full h-full overflow-hidden bg-radial from-40% from-gray-700 to-black">
 			<div className="z-3 relative w-full h-full bg-radial from-black from-90% to-transparent bg-[size:18px_18px]"></div>
 			<div ref={containerRef} className={`z-1 absolute top-0 left-0 w-full h-full`}>
 			{trail.map((pos, index) => (
