@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import CountDownBox from './CountDownBox';
 
 export default function Card({item}) {
-	const {img, size, tag, title, subtitle, btn, content} = item;
+	const {img, size, tag, title, subtitle, btn, content, countDown} = item;
 
 	return (
 		<article className={'relative flex h-100 xl:h-110 border border-solid border-[#111] rounded-xl overflow-hidden '+(size && size)}>
@@ -17,7 +18,7 @@ export default function Card({item}) {
 						</a>
 					))}
 				</div>}
-				{content && content}
+				{countDown && <CountDownBox time={countDown}/>}
 			</div>
 			<img src={`/img/${img}`} alt="" className='size-full absolute top-0 object-cover'/>
 		</article>

@@ -1,12 +1,9 @@
 import BgDots from '../component/BgDots';
 import Header from '../component/Header';
-import { useCountDown } from '../hook/useCountDown';
 import razer from '/icon/razer.svg';
 import Card from '../component/Card';
 
 function App() {
-	let { countDown: countDown_zzz } = useCountDown("2025-08-22T06:00:00");
-	let { countDown: countDown_gengar } = useCountDown("2025-08-19T12:00:00");
 	const lastArticles = [
 		{
 			img:"mouse/lefthanders-day.webp",
@@ -48,12 +45,10 @@ function App() {
 			subtitle:"CUT THROUGH THE CHAOS",
 			btn:[{name:"Learn More",url:""}],
 			size:"col-span-2",
-			content: <>
-				<div className='absolute flex flex-col items-center gap-1 bg-black right-0 bottom-0 p-2 min-w-80'>
-					<p>DROPPING August 22, 2025, 6AM PDT</p>
-					<h3 className='text-2xl'>{countDown_zzz}</h3>
-				</div>
-			</>
+			countDown: {
+				init: "2025-08-22T06:00:00",
+				end: "DROPPING August 22, 2025, 6AM PDT"
+			}
 		},{
 			img:"headset/pikachu.webp"
 		},{
@@ -64,12 +59,10 @@ function App() {
 			subtitle:"IT’S MISCHIEF TIME!",
 			btn:[{name:"Learn More",url:""}],
 			size:"col-span-2",
-			content: <>
-				<div className='absolute flex flex-col items-center gap-1 bg-black right-0 bottom-0 p-2 min-w-80'>
-					<p>DROPPING August 19, 2025, 8AM PDT</p>
-					<h3 className='text-2xl'>{countDown_gengar}</h3>
-				</div>
-			</>
+			countDown: {
+				init: "2025-08-19T12:00:00",
+				end: "DROPPING August 19, 2025, 8AM PDT"
+			}
 		},
 		{img:"headset/gengar.jpg", size:""},
 		{img:"headset/kuromi.jpg", size:""},
