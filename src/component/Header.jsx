@@ -14,7 +14,7 @@ export default function Header () {
 	return (
 		<header className='w-[calc(100%-2rem)] max-w-300 h-15 flex items-center justify-between border border-solid border-razer fixed top-0 z-10 bg-black/70 my-2 mx-4 backdrop-blur-sm rounded-full p-2'>
 			<img src={razerText} alt="" className='pl-4 h-5 select-none'/>
-			<nav ref={navRef} className='group relative h-full flex items-center text-gray-400 max-lg:hidden'>
+			<nav ref={navRef} className='group relative h-full flex items-center text-gray-400 max-lg:hidden select-none'>
 				{btns.map((btn, index) => (
 					<button
 						key={index} className='z-1 h-full px-3 cursor-pointer hover:text-gray-200 transition-colors'
