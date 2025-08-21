@@ -17,7 +17,7 @@ export default function Header () {
 			<nav ref={navRef} className='group relative h-full flex items-center text-gray-400 max-lg:hidden select-none'>
 				{btns.map((btn, index) => (
 					<button
-						key={index} className='z-1 h-full px-3 cursor-pointer hover:text-gray-200 transition-colors'
+						key={index} className='z-1 h-full px-2 xl:px-3 cursor-pointer hover:text-gray-200 transition-colors'
 						onClick={() => document.getElementById(btn).scrollIntoView({behavior: 'smooth'})}
 						onMouseEnter={e => {
 							const navLeft = navRef.current.getBoundingClientRect().left;

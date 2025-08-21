@@ -13,15 +13,22 @@ function App() {
 			btn:[{name:"Shop Now",url:""}],
 			tag:""
 		},{
+			img:"mouse/deathadder-v4-pro.webp",
+			title:"RAZER DEATHADDER V4 PRO",
+			subtitle:"For the Pro",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
+			tag:""
+		},{
 			img:"pc/blade-14.webp",
 			title:"NEW RAZER BLADE 16",
 			subtitle:"SLIMMER. SMARTER. SHARPER.",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:"Only at Razer"
+			tag:"Only at Razer",
+			size:"col-span-2 aspect-2/1"
 		},{
-			img:"headset/blackshark-v3-line.webp",
-			title:"RAZER BLACKSHARK V3 LINE",
-			subtitle:"For the Pro",
+			img:"keyboard/blackwidow-v4-lowprofile.webp",
+			title:"RAZER BLACKWIDOW V4",
+			subtitle:"LOW-PROFILE HYPERSPEED LINE",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
 			tag:"",
 			size:"col-span-2 aspect-2/1"
@@ -32,15 +39,28 @@ function App() {
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
 			tag:""
 		},{
-			img:"mouse/deathadder-v4-pro.webp",
-			title:"RAZER DEATHADDER V4 PRO",
+			img:"console/wolverine-v3-line-b.webp",
+			title:"RAZER WOLVERINE V3 8K PC LINE",
 			subtitle:"For the Pro",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
 			tag:""
+		},{
+			img:"headset/blackshark-v3-line.webp",
+			title:"RAZER BLACKSHARK V3 LINE",
+			subtitle:"For the Pro",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
+			tag:"",
+			size:"col-span-2 aspect-2/1"
 		}
 	];
 	const collabArticles = [
 		{
+			img:"headset/gengar.webp",
+			title:"RAZER | GENGAR",
+			subtitle:"IT’S MISCHIEF TIME!",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
+			size:"col-span-3 aspect-2/1"
+		},{
 			img:"razer-zzz.webp",
 			title:"RAZER | ZENLESS ZONE ZERO",
 			subtitle:"CUT THROUGH THE CHAOS",
@@ -53,11 +73,22 @@ function App() {
 		},{
 			img:"headset/pikachu.webp"
 		},{
-			img:"mouse/cyberpunk.jpg"
+			img:"mouse/cyberpunk.jpg",
+			imgLight: true,
+			title:"RAZER VIPER ULTIMATE",
+			subtitle:"CYBERPUNK 2077 EDITION",
+			btn:[{name:"Learn More",url:""}]
 		},{
-			img:"headset/gengar.webp",
-			title:"RAZER | GENGAR",
-			subtitle:"IT’S MISCHIEF TIME!",
+			img:"collab/marvel-rivals-s3.webp",
+			imgLight: true,
+			title:"MARVEL RIVALS SEASON 3",
+			subtitle:"ENTER A MULTIVERSE OF IMMERSION",
+			btn:[{name:"Learn More",url:""}],
+			size:"col-span-2 aspect-2/1"
+		},{
+			img:"collab/borderlands-4.webp",
+			title:"MULTIPLY THE MAYHEM",
+			subtitle:"GET BORDERLANDS 4 WITH SELECT RAZER BLADES",
 			btn:[{name:"Learn More",url:""}],
 			size:"col-span-2 aspect-2/1"
 		},

@@ -42,11 +42,11 @@
 }
 .customScroll::-webkit-scrollbar{
 	background: transparent;
-	width: 8px;
+	width: 10px;
 }
 .customScroll::-webkit-scrollbar-thumb{
-	border: 1px solid transparent;
-	border-width: 1.5rem 1px;
+	border: 2px solid transparent;
+	border-width: .5rem 2px;
 	background-origin: border-box;
 	background-clip: content-box, border-box;
 	background-image: linear-gradient(var(--color-razer-soft), var(--color-razer-soft)),
