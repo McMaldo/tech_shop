@@ -7,50 +7,61 @@ import Footer from '../component/Footer';
 function App() {
 	const lastArticles = [
 		{
-			img:"mouse/lefthanders-day.webp",
-			title:"HAPPY LEFT HANDERS DAY",
-			subtitle:"MADE FOR THE LEFT. BUILT TO FEEL RIGHT",
-			btn:[{name:"Shop Now",url:""}],
-			tag:""
+			img:"headset/kraken-kitty-line-2025.webp",
+			title:"RAZER KRAKEN KITTY V3 LINE",
+			subtitle:"THE MEOW FACTOR",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}]
 		},{
-			img:"mouse/deathadder-v4-pro.webp",
-			title:"RAZER DEATHADDER V4 PRO",
-			subtitle:"For the Pro",
+			img:"furniture/gaming-chairs-iskur-v2.webp",
+			title:"RAZER ISKUR V2",
+			subtitle:"LIMITED-TIME SPECIAL + BONUS PLUSHIE",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:""
+			tag:"Only at Razer"
 		},{
-			img:"pc/blade-14.webp",
+			img:"pc/blade-16.webp",
 			title:"NEW RAZER BLADE 16",
 			subtitle:"SLIMMER. SMARTER. SHARPER.",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
 			tag:"Only at Razer",
-			size:"col-span-2 aspect-2/1"
+			size:2
 		},{
 			img:"keyboard/blackwidow-v4-lowprofile.webp",
 			title:"RAZER BLACKWIDOW V4",
 			subtitle:"LOW-PROFILE HYPERSPEED LINE",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:"",
-			size:"col-span-2 aspect-2/1"
+			size:2
 		},{
-			img:"pc/core-x-v2.webp",
-			title:"RAZER CORE X V2",
-			subtitle:"MOBILITY MEETS DESKTOP PERFORMANCE",
-			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:""
-		},{
-			img:"console/wolverine-v3-line-b.webp",
-			title:"RAZER WOLVERINE V3 8K PC LINE",
+			img:"mouse/deathadder-v4-pro.webp",
+			title:"RAZER DEATHADDER V4 PRO",
 			subtitle:"For the Pro",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}]
+		},{
+			img:"pc/blade-14.webp",
+			title:"NEW RAZER BLADE 14",
+			subtitle:"OUR SLIMMEST LAPTOPS. OUR BIGGEST DEALS",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:""
+			tag:"Only at Razer",
 		},{
 			img:"headset/blackshark-v3-line.webp",
 			title:"RAZER BLACKSHARK V3 LINE",
 			subtitle:"For the Pro",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			tag:"",
-			size:"col-span-2 aspect-2/1"
+			size:2
+		},{
+			img:"console/wolverine-v3-line-b.webp",
+			title:"RAZER WOLVERINE V3 8K PC LINE",
+			subtitle:"For the Pro",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}]
+		},{
+			img:"mouse/lefthanders-day.webp",
+			title:"HAPPY LEFT HANDERS DAY",
+			subtitle:"MADE FOR THE LEFT. BUILT TO FEEL RIGHT",
+			btn:[{name:"Shop Now",url:""}]
+		},{
+			img:"pc/core-x-v2.webp",
+			title:"RAZER CORE X V2",
+			subtitle:"MOBILITY MEETS DESKTOP PERFORMANCE",
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}]
 		}
 	];
 	const collabArticles = [
@@ -59,17 +70,13 @@ function App() {
 			title:"RAZER | GENGAR",
 			subtitle:"IT’S MISCHIEF TIME!",
 			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
-			size:"col-span-3 aspect-2/1"
+			size:4
 		},{
-			img:"razer-zzz.webp",
+			img:"collab/zzz.webp",
 			title:"RAZER | ZENLESS ZONE ZERO",
 			subtitle:"CUT THROUGH THE CHAOS",
-			btn:[{name:"Learn More",url:""}],
-			size:"col-span-2 aspect-2/1",
-			countDown: {
-				init: "2025-08-22T06:00:00",
-				end: "DROPPING August 22, 2025, 6AM PDT"
-			}
+			btn:[{name:"Learn More",url:""},{name:"Buy",url:""}],
+			size:2
 		},{
 			img:"headset/pikachu.webp"
 		},{
@@ -84,17 +91,17 @@ function App() {
 			title:"MARVEL RIVALS SEASON 3",
 			subtitle:"ENTER A MULTIVERSE OF IMMERSION",
 			btn:[{name:"Learn More",url:""}],
-			size:"col-span-2 aspect-2/1"
+			size:2
 		},{
 			img:"collab/borderlands-4.webp",
-			title:"MULTIPLY THE MAYHEM",
+			title:"RAMPAGE-WORTHY DEALS AWAIT",
 			subtitle:"GET BORDERLANDS 4 WITH SELECT RAZER BLADES",
 			btn:[{name:"Learn More",url:""}],
-			size:"col-span-2 aspect-2/1"
+			size:2
 		},
-		{img:"headset/kuromi.jpg", size:""},
-		{img:"headset/hellokitty.jpg", size:""},
-		{img:"keyboard/hellokitty.webp", size:""},
+		{img:"headset/kuromi.jpg"},
+		{img:"headset/hellokitty.jpg"},
+		{img:"keyboard/hellokitty.webp"},
 	];
 
 	return (

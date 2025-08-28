@@ -1,5 +1,14 @@
 import { useCountDown } from '../hook/useCountDown';
 
+/**
+ *  recomended use:
+ *  countDown: {
+		init: "2025-08-22T06:00:00",
+		end: "DROPPING August 22, 2025, 6AM PDT"
+	}
+ *  @param {item} Object {init: string, end: string}
+ *  @returns RFC
+ */
 export default function CountDownBox ({time}) {
 	let { countDown } = useCountDown(time.init);
 	
