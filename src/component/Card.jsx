@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import CountDownBox from './CountDownBox';
+import { Link } from 'react-router-dom';
 
 export default function Card({item}) {
 	const {img, imgLight, size, tag, title, subtitle, btn, countDown, video} = item;
@@ -15,9 +16,9 @@ export default function Card({item}) {
 					{subtitle && <h6 className={size==4? 'text-xl' : 'text-sm'}>{subtitle}</h6>}
 					{btn && <div className='flex mt-2 select-none'>
 						{btn.map((btn, btnIndex)=>(
-							<a key={btnIndex} href={btn.url} className={'group text-sm py-1 px-2 cursor-pointer flex items-center border border-transparent transition-colors rounded-md ' + (imgLight? ' hover:bg-black/10 hover:border-[#333]' : 'hover:bg-black/50 hover:border-[#111]')}>
+							<Link to={`/${btn.name.replace(" ","").toLowerCase()}/${btn.url}`} key={btnIndex} className={'group text-sm py-1 px-2 cursor-pointer flex items-center border border-transparent transition-colors rounded-md ' + (imgLight? ' hover:bg-black/10 hover:border-[#333]' : 'hover:bg-black/50 hover:border-[#111]')}>
 								{btn.name} <FontAwesomeIcon icon={faAngleRight} className={'group-hover:translate-x-1 transition-all ' + (imgLight? 'text-gray-950' : 'text-razer')}/>
-							</a>
+							</Link>
 						))}
 					</div>}
 					{countDown && <CountDownBox time={countDown}/>}
