@@ -1,0 +1,125 @@
+{
+    "last": [
+		{
+			"id":"headset/kraken-kitty-line-2025",
+			"img":"headset/kraken-kitty-line-2025.webp",
+			"title":"RAZER KRAKEN KITTY V3 LINE",
+			"subtitle":"THE MEOW FACTOR",
+			"btn":["Learn More","Buy"]
+		},{
+			"id":"headset/",
+			"img":"furniture/gaming-chairs-iskur-v2.webp",
+			"title":"RAZER ISKUR V2",
+			"subtitle":"LIMITED-TIME SPECIAL + BONUS PLUSHIE",
+			"btn":["Learn More","Buy"],
+			"tag":"Only at Razer"
+		},{
+			"id":"headset/",
+			"img":"pc/blade-16.webp",
+			"title":"NEW RAZER BLADE 16",
+			"subtitle":"SLIMMER. SMARTER. SHARPER.",
+			"btn":["Learn More","Buy"],
+			"tag":"Only at Razer",
+			"size":2
+		},{
+			"id":"headset/",
+			"img":"keyboard/blackwidow-v4-lowprofile.webp",
+			"title":"RAZER BLACKWIDOW V4",
+			"subtitle":"LOW-PROFILE HYPERSPEED LINE",
+			"btn":["Learn More","Buy"],
+			"size":2
+		},{
+			"id":"headset/",
+			"img":"mouse/deathadder-v4-pro.webp",
+			"title":"RAZER DEATHADDER V4 PRO",
+			"subtitle":"For the Pro",
+			"btn":["Learn More","Buy"]
+		},{
+			"id":"headset/",
+			"img":"pc/blade-14.webp",
+			"title":"NEW RAZER BLADE 14",
+			"subtitle":"OUR SLIMMEST LAPTOPS. OUR BIGGEST DEALS",
+			"btn":["Learn More","Buy"],
+			"tag":"Only at Razer"
+		},{
+			"id":"headset/",
+			"img":"headset/blackshark-v3-line.webp",
+			"title":"RAZER BLACKSHARK V3 LINE",
+			"subtitle":"For the Pro",
+			"btn":["Learn More","Buy"],
+			"size":2
+		},{
+			"id":"headset/",
+			"img":"console/wolverine-v3-line-b.webp",
+			"title":"RAZER WOLVERINE V3 8K PC LINE",
+			"subtitle":"For the Pro",
+			"btn":["Learn More","Buy"]
+		},{
+			"id":"headset/",
+			"img":"mouse/lefthanders-day.webp",
+			"title":"HAPPY LEFT HANDERS DAY",
+			"subtitle":"MADE FOR THE LEFT. BUILT TO FEEL RIGHT",
+			"btn":["Shop Now"]
+		},{
+			"id":"headset/",
+			"img":"pc/core-x-v2.webp",
+			"title":"RAZER CORE X V2",
+			"subtitle":"MOBILITY MEETS DESKTOP PERFORMANCE",
+			"btn":["Learn More","Buy"]
+		}
+	],
+    "collab": [
+		{
+			"id":"headset/",
+			"img":"headset/gengar.webp",
+			"title":"RAZER | GENGAR",
+			"subtitle":"IT’S MISCHIEF TIME!",
+			"btn":["Learn More","Buy"],
+			"size":4
+		},{
+			"id":"headset/",
+			"img":"collab/zzz.webp",
+			"title":"RAZER | ZENLESS ZONE ZERO",
+			"subtitle":"CUT THROUGH THE CHAOS",
+			"btn":["Learn More","Buy"],
+			"size":2
+		},{
+			"id":"headset/",
+			"img":"headset/pikachu.webp"
+		},{
+			"id":"headset/",
+			"img":"mouse/cyberpunk.jpg",
+			"imgLight": true,
+			"title":"RAZER VIPER ULTIMATE",
+			"subtitle":"CYBERPUNK 2077 EDITION",
+			"btn":["Learn More"]
+		},{
+			"id":"headset/",
+			"img":"collab/marvel-rivals-s3.webp",
+			"imgLight": true,
+			"title":"MARVEL RIVALS SEASON 3",
+			"subtitle":"ENTER A MULTIVERSE OF IMMERSION",
+			"btn":["Learn More"],
+			"size":2
+		},{
+			"id":"headset/",
+			"img":"collab/borderlands-4.webp",
+			"title":"RAMPAGE-WORTHY DEALS AWAIT",
+			"subtitle":"GET BORDERLANDS 4 WITH SELECT RAZER BLADES",
+			"btn":["Learn More"],
+			"size":2
+		},
+		{
+			"id":"headset/",
+			"img":"headset/kuromi.jpg"
+		},
+		{
+			"id":"headset/",
+			"img":"headset/hellokitty.jpg"
+		},
+		{
+			"id":"headset/",
+			"img":"keyboard/hellokitty.webp"
+		}
+	]
+}

@@ -4,7 +4,7 @@ import CountDownBox from './CountDownBox';
 import { Link } from 'react-router-dom';
 
 export default function Card({item}) {
-	const {img, imgLight, size, tag, title, subtitle, btn, countDown, video} = item;
+	const {id, img, imgLight, size, tag, title, subtitle, btn, countDown, video} = item;
 	const coverStyles = 'size-full absolute top-0 object-cover select-none outline-0';
 
 	return (
@@ -15,9 +15,13 @@ export default function Card({item}) {
 					{title && <h4 className={size==4? 'text-4xl pt-12 pb-2' : 'text-2xl'}>{title}</h4>}
 					{subtitle && <h6 className={size==4? 'text-xl' : 'text-sm'}>{subtitle}</h6>}
 					{btn && <div className='flex mt-2 select-none'>
-						{btn.map((btn, btnIndex)=>(
-							<Link to={`/${btn.name.replace(" ","").toLowerCase()}/${btn.url}`} key={btnIndex} className={'group text-sm py-1 px-2 cursor-pointer flex items-center border border-transparent transition-colors rounded-md ' + (imgLight? ' hover:bg-black/10 hover:border-[#333]' : 'hover:bg-black/50 hover:border-[#111]')}>
-								{btn.name} <FontAwesomeIcon icon={faAngleRight} className={'group-hover:translate-x-1 transition-all ' + (imgLight? 'text-gray-950' : 'text-razer')}/>
+						{btn.map((btnLink, btnIndex)=>(
+							<Link 
+								key={btnIndex}
+								to={`/${btnLink.replace(" ","").toLowerCase()}/${id}`}
+								className={'group text-sm py-1 px-2 cursor-pointer flex items-center border border-transparent transition-colors rounded-md ' + (imgLight? ' hover:bg-black/10 hover:border-[#333]' : 'hover:bg-black/50 hover:border-[#111]')}
+							>
+								{btnLink} <FontAwesomeIcon icon={faAngleRight} className={'group-hover:translate-x-1 transition-all ' + (imgLight? 'text-gray-950' : 'text-razer')}/>
 							</Link>
 						))}
 					</div>}

@@ -13,7 +13,7 @@ export default function Header () {
 	];
 
 	return (
-		<header className='w-[calc(100%-2rem)] max-w-270 h-15 flex items-center justify-between border border-solid border-razer fixed top-0 z-10 bg-black/70 my-2 mx-4 backdrop-blur-sm rounded-full py-2 px-3'>
+		<header className='w-[calc(100%-2rem)] max-w-270 h-15 flex items-center justify-between border border-solid border-razer fixed top-0 z-10 bg-black/70 my-2 mx-4 backdrop-blur-sm rounded-full p-2'>
 			<Link to="/" className='h-full select-none'>
 				<img src={razer} alt="" className='h-full'/>
 			</Link>
